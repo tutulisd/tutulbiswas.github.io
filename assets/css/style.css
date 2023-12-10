@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 ul {
     list-style: none;
@@ -250,7 +250,46 @@ img {
 } 
 .portfolio_con h4 {
     font-size: 23px;
-    color: #1e2125;
+    color: #14171a;
     font-weight: 500;
+}
+.footer{
+    padding-top: 25px;
+    background: #14171a;
+}
+.footer h1,h2,h3{
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.footer h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+.footer h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.footer-nav ul li a{
+    padding: 20px;
+    color:#fff;
+    
+}
+.footer-nav ul li a:hover{
+    color:#ff014f
+}
+.copyright{
+    background: #000;
+    color: #363e41;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
 }
 /* Portfolio Area End */
